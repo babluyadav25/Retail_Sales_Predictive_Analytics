@@ -75,12 +75,13 @@ The ultimate objective of this project is to provide C-Suite executives with rea
 ```
 Retail-Sales-Predictive-Analytics/
 │
-├── 📜 README.md                     # Project documentation and summary
-├── 📊 Retail_Dashboard.pbix         # Power BI Interactive Dashboard file
-├── 📈 Retail_Sales.xlsx             # Excel workbook with FORECAST.ETS & Regression
-├── 🗄️ Retail_Analysis.sql           # Data cleaning, CTEs, and RFM queries
-|--  📄 raw_data.csv
-|-- dashboard.png                     # Dashboard screenshots and generated charts
+├── README.md                     # Project documentation and summary
+├── Retail_Dashboard.pbix         # Power BI Interactive Dashboard file
+├── Retail_Sales.xlsx
+├── Foracast.png                      # Excel workbook with FORECAST.ETS 
+├── Retail_Analysis.sql           # Data cleaning, CTEs, and RFM queries
+|── raw_data.csv
+|── dashboard.png                     # Dashboard screenshots and generated charts
                                        # Transactional dataset (5,000 records)
 ```
 
@@ -132,7 +133,6 @@ FROM Customer_RFM;
 ---
 
 ## 👨‍💻 Author & Contact
-* **Name:** Data Analyst
 * **Project Type:** Portfolio Showcase (Retail Enterprise BI)
-* **Tools:** SQL | Excel | Power BI | Data Analytics
+* **Tools:** SQL | Excel | Power BI | 
 

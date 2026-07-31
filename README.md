@@ -3,7 +3,7 @@ End-to-End Retail Analytics &amp; Forecasting Engine built using SQL (RFM Analys
 
 # 🛒 Retail Enterprise Sales & Predictive Analytics Engine
 
-![Dashboard Preview](dashboard_preview.png)
+![Dashboard Preview](dashboard.png)
 
 ## 📌 Executive Summary & Project Overview
 This project provides an end-to-end data analytics and predictive modeling solution designed for an enterprise omnichannel retail organization operating across major metro cities in India. By processing and modeling **5,000+ transactional records** (covering 2024–2025), this analytics engine resolves critical operational blind spots related to margin leakage, unmonitored product return rates, aggressive discount elasticity, and customer retention segmentation.
@@ -75,15 +75,13 @@ The ultimate objective of this project is to provide C-Suite executives with rea
 ```
 Retail-Sales-Predictive-Analytics/
 │
-├── 📜 README.md                         # Project documentation and summary
-├── 📊 Retail_Executive_Dashboard.pbix   # Power BI Interactive Dashboard file
-├── 📈 Predictive_Sales_Model.xlsx       # Excel workbook with FORECAST.ETS & Regression
-├── 🗄️ SQL_Retail_Analytics.sql         # Data cleaning, CTEs, and RFM queries
-├── 📁 visuals/                          # Dashboard screenshots and generated charts
-│   ├── dashboard_preview.png
-│   ├── forecast_chart.png
-│   └── regression_plot.png
-└── 📄 raw_data.csv                       # Transactional dataset (5,000 records)
+├── 📜 README.md                     # Project documentation and summary
+├── 📊 Retail_Dashboard.pbix         # Power BI Interactive Dashboard file
+├── 📈 Retail_Sales.xlsx             # Excel workbook with FORECAST.ETS & Regression
+├── 🗄️ Retail_Analysis.sql           # Data cleaning, CTEs, and RFM queries
+|--  📄 raw_data.csv
+|-- dashboard.png                     # Dashboard screenshots and generated charts
+                                       # Transactional dataset (5,000 records)
 ```
 
 ---

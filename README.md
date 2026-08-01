@@ -26,7 +26,7 @@ The ultimate objective of this project is to provide C-Suite executives with rea
 
 | Layer | Technology / Tool | Key Capabilities Applied |
 | :--- | :--- | :--- |
-| **Data Processing & SQL** | MySQL / PostgreSQL | Data Cleansing, CTEs, Window Functions, RFM Segmentation, Aggregate Functions |
+| **Data Processing & SQL** | MySQL| Data Cleansing, CTEs, Window Functions, RFM Segmentation, Aggregate Functions |
 | **Predictive Analytics** | Microsoft Excel | `FORECAST.ETS` (Exponential Smoothing), Data Analysis Toolpak (Linear Regression) |
 | **Data Visualization & BI** | Power BI Desktop | Star Schema Data Modeling, DAX Measures, Time Intelligence, Custom Slicers |
 | **Documentation & Packaging** | Markdown & GitHub | End-to-End Portfolio Structuring, Executable Scripts, Technical Q&A |
@@ -81,7 +81,7 @@ Retail-Sales-Predictive-Analytics
 |-----Predictive_Sales_Model.xlsx 
 |-----Retail_Sales.csv
 |queries  
-├── 🗄️ Retail_Analysis.sql          
+├── Retail_Analysis.sql          
 |Dashboard                         
    ├──dashboard.png
    |──Sales_Dashboard.pbix

@@ -1,8 +1,6 @@
 # Retail_Sales_Predictive_Analytics
 End-to-End Retail Analytics &amp; Forecasting Engine built using SQL (RFM Analysis), Excel (Time-Series Forecasting &amp; Regression), and Power BI (Executive Dashboarding).
 
-# 🛒 Retail Enterprise Sales & Predictive Analytics Engine
-
 # Dashboard Preview 
 <img width="874" height="490" alt="Dashboard" src="https://github.com/user-attachments/assets/881b686a-fa02-467c-af35-a213fe59bf4a" />
 

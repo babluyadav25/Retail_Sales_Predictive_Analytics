@@ -3,7 +3,8 @@ End-to-End Retail Analytics &amp; Forecasting Engine built using SQL (RFM Analys
 
 # 🛒 Retail Enterprise Sales & Predictive Analytics Engine
 
-Dashboard Preview <img width="874" height="490" alt="Dashboard" src="https://github.com/user-attachments/assets/881b686a-fa02-467c-af35-a213fe59bf4a" />
+# Dashboard Preview 
+<img width="874" height="490" alt="Dashboard" src="https://github.com/user-attachments/assets/881b686a-fa02-467c-af35-a213fe59bf4a" />
 
 
 ## 📌 Executive Summary & Project Overview

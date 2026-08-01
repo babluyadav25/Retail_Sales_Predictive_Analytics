@@ -3,9 +3,7 @@ End-to-End Retail Analytics &amp; Forecasting Engine built using SQL (RFM Analys
 
 # 🛒 Retail Enterprise Sales & Predictive Analytics Engine
 
-![Dashboard Preview](" Dashboard_Preview
-<img width="193" height="21" alt="image" src="https://github.com/user-attachments/assets/ff8a8f26-a1c8-4840-932f-49de5934e6eb" />
-")
+![Dashboard Preview]("dasshboard.png")
 
 ## 📌 Executive Summary & Project Overview
 This project provides an end-to-end data analytics and predictive modeling solution designed for an enterprise omnichannel retail organization operating across major metro cities in India. By processing and modeling **5,000+ transactional records** (covering 2024–2025), this analytics engine resolves critical operational blind spots related to margin leakage, unmonitored product return rates, aggressive discount elasticity, and customer retention segmentation.

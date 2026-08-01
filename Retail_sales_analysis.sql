@@ -1,8 +1,4 @@
-create database retail_sales;
-use retail_sales;
-show tables;
-select * from sales_data;
-
+(1)
 WITH MonthlySales AS (
     SELECT 
         DATE_FORMAT(Order_Date, '%Y-%m') AS Sales_Month,
@@ -21,6 +17,8 @@ SELECT
     ) AS MoM_Growth_Percentage
 FROM MonthlySales;
 
+
+(2)
 SELECT 
     Customer_ID,
     Customer_Segment,
@@ -33,10 +31,7 @@ GROUP BY Customer_ID, Customer_Segment
 HAVING SUM(Net_Sales_INR) > 50000
 ORDER BY Monetary_Value DESC;
 
-describe sales_data;
-alter table sales_data change column 'ï»¿Transaction_ID' 'Transaction_ID' text;
-ALTER TABLE sales_data RENAME COLUMN `ï»¿Transaction_ID` TO Transaction_ID;
-
+(3)
 SELECT 
     Category,
     ROUND(SUM(Gross_Amount_INR), 2) AS Total_Gross_Sales,
@@ -48,6 +43,7 @@ FROM sales_data
 GROUP BY Category
 ORDER BY Total_Net_Profit DESC;
 
+(4)
 SELECT 
     Category,
     COUNT(Transaction_ID) AS Total_Orders,
@@ -60,6 +56,7 @@ FROM sales_data
 GROUP BY Category
 ORDER BY Return_Rate_Pct DESC;
 
+(5)
 SELECT 
     Store_Type,
     Payment_Method,

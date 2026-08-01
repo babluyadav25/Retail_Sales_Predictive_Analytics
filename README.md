@@ -5,7 +5,6 @@ End-to-End Retail Analytics &amp; Forecasting Engine built using SQL (RFM Analys
 
 ![Dashboard Preview](dashboard.png)
 
-
 ## 📌 Executive Summary & Project Overview
 This project provides an end-to-end data analytics and predictive modeling solution designed for an enterprise omnichannel retail organization operating across major metro cities in India. By processing and modeling **5,000+ transactional records** (covering 2024–2025), this analytics engine resolves critical operational blind spots related to margin leakage, unmonitored product return rates, aggressive discount elasticity, and customer retention segmentation.
 
@@ -26,7 +25,7 @@ The ultimate objective of this project is to provide C-Suite executives with rea
 
 | Layer | Technology / Tool | Key Capabilities Applied |
 | :--- | :--- | :--- |
-| **Data Processing & SQL** | MySQL| Data Cleansing, CTEs, Window Functions, RFM Segmentation, Aggregate Functions |
+| **Data Processing & SQL** | MySQL / PostgreSQL | Data Cleansing, CTEs, Window Functions, RFM Segmentation, Aggregate Functions |
 | **Predictive Analytics** | Microsoft Excel | `FORECAST.ETS` (Exponential Smoothing), Data Analysis Toolpak (Linear Regression) |
 | **Data Visualization & BI** | Power BI Desktop | Star Schema Data Modeling, DAX Measures, Time Intelligence, Custom Slicers |
 | **Documentation & Packaging** | Markdown & GitHub | End-to-End Portfolio Structuring, Executable Scripts, Technical Q&A |
@@ -74,16 +73,19 @@ The ultimate objective of this project is to provide C-Suite executives with rea
 ## 📂 Repository File Structure
 
 ```
-Retail-Sales-Predictive-Analytics/
+Retail-Sales-Predictive-Analytics
 │
-├── README.md                     # Project documentation and summary
-├── Retail_Dashboard.pbix         # Power BI Interactive Dashboard file
-├── Retail_Sales.xlsx
-├── Foracast.png                      # Excel workbook with FORECAST.ETS 
-├── Retail_Analysis.sql           # Data cleaning, CTEs, and RFM queries
-|── raw_data.csv
-|── dashboard.png                     # Dashboard screenshots and generated charts
-                                       # Transactional dataset (5,000 records)
+├─README.md   
+|data  
+|-----Predictive_Sales_Model.xlsx 
+|-----Retail_Sales.csv
+|queries  
+├── 🗄️ Retail_Analysis.sql          
+|Dashboard                         
+   ├──dashboard.png
+   |──Sales_Dashboard.pbix
+   |──Forcast_Chart.png        
+                      
 ```
 
 ---
@@ -131,10 +133,5 @@ FROM Customer_RFM;
 4. **Launch Power BI Dashboard:**
    * Open `Retail_Executive_Dashboard.pbix` in Power BI Desktop to inspect the Star Schema model and interact with the canvas.
 
----
-
-## 👨‍💻 Author & Contact
-
-* **Project Type:** Portfolio Showcase (Retail Enterprise BI)
-* **Tools:** SQL | Excel | Power BI | 
+ 
 
